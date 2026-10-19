@@ -36,5 +36,5 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: VideoSorter-Windows
-          path: dist/VideoSorter.exe
+          path: dist/VideoSorter/    # 这里改成了文件夹路径
           if-no-files-found: error
